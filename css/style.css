@@ -1,7 +1,50 @@
+* {
+    margin:0 !important;
+    padding:0;
+    box-sizing:border-box;
+}
+
+.logo{
+    background-color: #EBEEF2;
+}
+
+.fondonavbar {
+    background: linear-gradient(to bottom, #BF4417, #b96b4e);
+}
+
 .navbar{
+    border-top:1px solid black ;
     list-style: none;
+    height: 100%;
+    margin: 0%;
+    text-shadow: 0 0 1px black;
 }
 
 .navbar li a{
     text-decoration: none;
+    color: white;
+}
+
+.banner {
+    margin: 0%;
+    padding: 0%;
+}
+
+main {
+    background-color: #F2F2F0;
+}
+
+footer {
+    margin: 0;
+    background: linear-gradient(to top, #BF4417, #b96b4e);
+    color: white;
+    text-shadow: 0 0 1px black;
+}
+
+footer p a img{
+    width: 20px;
+}
+
+.vaca {
+    border-radius: 5px;
 }
