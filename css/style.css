@@ -4,13 +4,19 @@
     box-sizing:border-box;
 }
 
+
+.container {
+    margin: 0 !important;
+}
+
 .logo{
     background-color: #EBEEF2;
 }
 
-.fondonavbar {
+nav {
     background: linear-gradient(to bottom, #BF4417, #b96b4e);
 }
+
 
 .navbar{
     border-top:1px solid black ;
@@ -48,3 +54,7 @@ footer p a img{
 .vaca {
     border-radius: 5px;
 }
+
+@media (min-width: 1200px) {
+        .banner img {width: 100%;}
+    }
