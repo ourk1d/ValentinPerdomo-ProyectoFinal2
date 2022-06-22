@@ -4,9 +4,8 @@
     box-sizing:border-box;
 }
 
-
-.container {
-    margin: 0 !important;
+h2 {
+    font-size: 150px;
 }
 
 .logo{
@@ -52,9 +51,22 @@ footer p a img{
 }
 
 .vaca {
-    border-radius: 5px;
+    height: min-content;
+}
+
+ul { line-height : 30px;
+}
+
+.pnovedades {
+    padding: 0 12px;
 }
 
 @media (min-width: 1200px) {
-        .banner img {width: 100%;}
-    }
+    .banner img {width: 100%;}
+    li { font-size: 20px;}
+    ul { line-height : 35x;}
+}
+
+@media (min-width: 1400px) {
+    ul { line-height : 40px;}
+}
