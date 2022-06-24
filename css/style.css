@@ -1,6 +1,6 @@
 * {
-    margin:0 !important;
-    padding:0;
+    margin:0 ;
+    padding:0 ;
     box-sizing:border-box;
 }
 
@@ -11,6 +11,15 @@ h2 {
 .logo{
     background-color: #EBEEF2;
 }
+
+.selectnav{
+    font-size: 40px;
+    text-align: center;
+    background: linear-gradient(to bottom, #BF4417, #b96b4e);
+    height: 45px;
+    color: white;
+}
+
 
 nav {
     background: linear-gradient(to bottom, #BF4417, #b96b4e);
@@ -25,10 +34,12 @@ nav {
     text-shadow: 0 0 1px black;
 }
 
+
 .navbar li a{
     text-decoration: none;
     color: white;
 }
+
 
 .banner {
     margin: 0%;
@@ -44,27 +55,33 @@ footer {
     background: linear-gradient(to top, #BF4417, #b96b4e);
     color: white;
     text-shadow: 0 0 1px black;
+
 }
 
-footer p a img{
-    width: 20px;
+.contenido {
+    list-style: none;
+    padding: 0;
 }
 
-.vaca {
+
+.wp {
+    width: 40px;
+}
+
+.foto {
     height: min-content;
 }
 
 ul { line-height : 30px;
 }
 
-.pnovedades {
-    padding: 0 12px;
-}
+
 
 @media (min-width: 1200px) {
     .banner img {width: 100%;}
     li { font-size: 20px;}
-    ul { line-height : 35x;}
+    ul { line-height : 35px;}
+    .coti { font-size: 24px;}
 }
 
 @media (min-width: 1400px) {
