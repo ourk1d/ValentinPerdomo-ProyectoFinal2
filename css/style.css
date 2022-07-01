@@ -13,7 +13,7 @@ header nav .navbar1 li {
   height: 100%;
 }
 header nav .navbar1 li:hover {
-  border-top: #8C1B1B 3px solid;
+  border-bottom: #8C1B1B 2px solid;
 }
 
 @media (min-width: 1200px) {
