@@ -1,0 +1,23 @@
+main {
+    background-color: #F2F2F0;
+    h2 {
+        font-size: 150px;
+        font-family: 'Source Sans Pro', sans-serif;
+    }
+    .contenido {
+        list-style: none;
+        padding: 0;
+    }
+    ul { line-height : 30px;
+        font-family: 'Mukta', sans-serif;
+    }
+    .foto {
+        height: min-content;
+    }
+    .wp {
+        width: 40px;
+    }
+    h3 {font-family: 'Source Sans Pro', sans-serif;}
+
+    p {font-family: 'Mukta', sans-serif;}
+}
