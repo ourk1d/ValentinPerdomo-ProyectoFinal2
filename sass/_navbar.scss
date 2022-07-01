@@ -9,7 +9,7 @@ header { background-color: $colorTerciario;
                 font-family: 'Source Sans Pro', sans-serif;
                 font-size: 20px;
                 height: 100%;
-                &:hover {border-top: $colorSecundario 3px solid;}
+                &:hover {border-bottom: $colorSecundario 2px solid;}
             }
         }
     }
