@@ -1,8 +1,8 @@
 footer {
-    font-family: 'Mukta', sans-serif;
+    @include texto;
     font-size: 20px;
     margin: 0;
-    background-color: $colorSecundario;
+    background-color: map-get($colores , secundario );
     color: white;
     text-shadow: 0 0 1px black;
 }

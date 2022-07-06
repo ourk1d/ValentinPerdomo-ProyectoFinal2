@@ -1,4 +1,16 @@
-$colorPrimario:#EBEEF2;
-$colorSecundario:#8C1B1B;
-$colorTerciario:#e1e3e7;
+$colores: (
+    primario: #EBEEF2,
+    secundario:#8C1B1B,
+    terciario:#F2F2F0,
+);
 
+@mixin texto {
+    font-size: 16px;
+    color: #2c2c2c;
+    font-family: 'Mukta', sans-serif;
+}
+
+.titulos {
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 24px;
+}

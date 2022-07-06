@@ -1,14 +1,16 @@
-@import "_navbar.scss"; 
+* { padding: 0;
+    margin: 0;}
+
 @import "_variables.scss";
-@import "_mediaq.scss";
+@import "_navbar.scss"; 
 @import "_main.scss";
 @import "_footer.scss";
+@import "_mediaq.scss";
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&family=Roboto:ital,wght@1,500&family=Source+Sans+Pro:wght@600&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Mukta:wght@300&family=Open+Sans:wght@400;600&family=Roboto:ital,wght@1,500&family=Source+Sans+Pro:wght@600&family=Ubuntu:ital,wght@0,400;1,300&display=swap');
 
 
-* { padding: 0;
-    margin: 0;}
+
 
 
 

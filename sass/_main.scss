@@ -1,15 +1,14 @@
 main {
-    background-color: #F2F2F0;
+    background-color: map-get($colores , terciario );
     h2 {
-        font-size: 150px;
         font-family: 'Source Sans Pro', sans-serif;
     }
     .contenido {
         list-style: none;
         padding: 0;
     }
-    ul { line-height : 30px;
-        font-family: 'Mukta', sans-serif;
+    ul { @include texto;
+        line-height : 30px;
     }
     .foto {
         height: min-content;
@@ -19,5 +18,5 @@ main {
     }
     h3 {font-family: 'Source Sans Pro', sans-serif;}
 
-    p {font-family: 'Mukta', sans-serif;}
+    p {@include texto}
 }
