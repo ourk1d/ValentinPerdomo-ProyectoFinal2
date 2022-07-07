@@ -5,14 +5,22 @@
   margin: 0;
 }
 
-.titulos {
+.titulos, .titulos--cotizaciones {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 24px;
+  text-align: center;
 }
 
-.titulos {
+.titulos--cotizaciones {
+  text-align: start;
+}
+
+.titulos, .titulos--cotizaciones {
   font-family: "Source Sans Pro", sans-serif;
-  font-size: 24px;
+  text-align: center;
+}
+
+.titulos--cotizaciones {
+  text-align: start;
 }
 
 header {
@@ -33,9 +41,6 @@ header nav .navbar1 li:hover {
 
 main {
   background-color: #F2F2F0;
-}
-main h2 {
-  font-family: "Source Sans Pro", sans-serif;
 }
 main .contenido {
   list-style: none;

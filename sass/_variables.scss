@@ -12,5 +12,10 @@ $colores: (
 
 .titulos {
     font-family: 'Source Sans Pro', sans-serif;
-    font-size: 24px;
+    text-align: center;
+}
+
+.titulos--cotizaciones {
+    @extend .titulos;
+    text-align: start;
 }
