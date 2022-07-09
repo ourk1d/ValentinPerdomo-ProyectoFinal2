@@ -16,4 +16,9 @@ main {
     h3 {font-family: 'Source Sans Pro', sans-serif;}
 
     p {@include texto}
+    
+    .descripcion {
+        @include texto;
+        color: white;
+    }
 }
