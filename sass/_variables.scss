@@ -5,8 +5,7 @@ $colores: (
 );
 
 @mixin texto {
-    font-size: 16px;
-    color: #2c2c2c;
+    color: black;
     font-family: 'Mukta', sans-serif;
 }
 
@@ -17,5 +16,4 @@ $colores: (
 
 .titulos--cotizaciones {
     @extend .titulos;
-    text-align: start;
 }

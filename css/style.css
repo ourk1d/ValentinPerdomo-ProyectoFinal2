@@ -10,17 +10,9 @@
   text-align: center;
 }
 
-.titulos--cotizaciones {
-  text-align: start;
-}
-
 .titulos, .titulos--cotizaciones {
   font-family: "Source Sans Pro", sans-serif;
   text-align: center;
-}
-
-.titulos--cotizaciones {
-  text-align: start;
 }
 
 header {
@@ -47,8 +39,7 @@ main .contenido {
   padding: 0;
 }
 main ul {
-  font-size: 16px;
-  color: #2c2c2c;
+  color: black;
   font-family: "Mukta", sans-serif;
   line-height: 30px;
 }
@@ -64,26 +55,30 @@ main h3 {
   font-family: "Source Sans Pro", sans-serif;
 }
 main p {
-  font-size: 16px;
-  color: #2c2c2c;
+  color: black;
   font-family: "Mukta", sans-serif;
 }
 main .descripcion {
-  font-size: 16px;
-  color: #2c2c2c;
+  color: black;
   font-family: "Mukta", sans-serif;
   color: white;
 }
 
 footer {
-  font-size: 16px;
-  color: #2c2c2c;
+  color: black;
   font-family: "Mukta", sans-serif;
-  font-size: 20px;
   margin: 0;
   background-color: #8C1B1B;
   color: white;
   text-shadow: 0 0 1px black;
+}
+
+.vcam {
+  width: 250px;
+}
+
+.textof, .textof--derecha {
+  width: 250px;
 }
 
 @media (min-width: 1200px) {
@@ -106,14 +101,32 @@ footer {
   header {
     height: 165px;
   }
+
+  p {
+    font-size: 18px;
+  }
 }
 @media (min-width: 1400px) {
   .contenido {
-    line-height: 50px;
+    line-height: 60px;
+  }
+}
+@media (min-width: 1700px) {
+  li {
+    font-size: 26px;
+  }
+
+  p {
+    font-size: 22px;
   }
 }
 @media (max-width: 475px) {
   .logo {
     width: 100%;
+  }
+}
+@media (min-width: 572px) {
+  .textof--derecha {
+    text-align: end;
   }
 }/*# sourceMappingURL=style.css.map */

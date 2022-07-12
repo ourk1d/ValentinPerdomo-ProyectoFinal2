@@ -1,6 +1,5 @@
 footer {
     @include texto;
-    font-size: 20px;
     margin: 0;
     background-color: map-get($colores , secundario );
     color: white;
@@ -8,3 +7,9 @@ footer {
 }
 
 
+.vcam { width: 250px;}
+
+.textof { width: 250px;}
+
+.textof--derecha {
+    @extend .textof;}
