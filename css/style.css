@@ -63,6 +63,12 @@ main .descripcion {
   font-family: "Mukta", sans-serif;
   color: white;
 }
+main .coti {
+  text-align: center;
+}
+main .form {
+  width: 700px;
+}
 
 footer {
   color: black;
