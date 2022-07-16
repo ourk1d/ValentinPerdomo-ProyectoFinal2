@@ -116,6 +116,10 @@ footer {
   .contenido {
     line-height: 60px;
   }
+
+  .navbar1 li a {
+    font-size: 24px;
+  }
 }
 @media (min-width: 1700px) {
   li {
